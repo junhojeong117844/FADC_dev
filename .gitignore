@@ -1,0 +1,5 @@
+*.root
+*.png
+*.ps
+analysis/
+KOMAC/
