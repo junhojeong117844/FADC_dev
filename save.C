@@ -18,8 +18,6 @@ void save(const char* filename = "default") {
     int nEvents = tree->GetEntries();
     gStyle->SetOptStat(0);
 
-    gSystem->mkdir("CsI_w_PMT_5000", kTRUE);
-
     for (int eventID = 0; eventID < nEvents; ++eventID) {
         tree->GetEntry(eventID);
 
